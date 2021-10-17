@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <body>     
+        <div class="container mt-3" style="text-align: center;border-width: 13rem;border-style:ridge;background-color:aquamarine;">
+            <form action="/action_page.php" class="was-validated">
+              <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Username:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+                <label class="form-check-label" for="myCheck">Before a user is able to create an account on Resume, the user must click on a box next to "I agree to the terms of service" and then must click on the "Sign Up" button.</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+              </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+            <div class="container mt-3">
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Resume.html">Go to Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div> 
+          <!--<div class="container mt-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="Resume.html">SUBMIT</a>
+              </li>
+            </ul>
+          </div>-->
+    </body>
+</html>
